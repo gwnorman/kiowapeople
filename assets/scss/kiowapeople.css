@@ -150,7 +150,7 @@
   padding: 5px; }
 
 .blog-1 .blog-col .h3, .blog-1 .blog-col h3 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400; }
 
 .blog-1 .blog-col .blog-preview-content p {
@@ -158,23 +158,11 @@
   margin: 0;
   padding-bottom: 0px; }
   .blog-1 .blog-col .blog-preview-content p.description {
-    height: 235px; }
+    height: 175px; }
 
 .blog-1 .blog-col .blog-preview-content .continue {
   font-size: 14px;
   padding-bottom: 5px; }
-
-.blog-1 .btn.btn-default {
-  color: #FFF;
-  background-color: #ad7f2a;
-  border-color: #c8cdd7;
-  color: #fff; }
-  .blog-1 .btn.btn-default a {
-    color: #fff;
-    display: block;
-    border-color: #c8cdd7; }
-  .blog-1 .btn.btn-default:hover {
-    background-color: #cf9b3b; }
 
 .koomsa-gift .koomsa-gift-vids {
   padding-top: 65px; }

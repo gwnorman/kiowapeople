@@ -26,7 +26,7 @@
 .banner {
   .intro-welcome {
     font-family: $font-stack;
-    font-weight: 100;
+    font-weight: 300;
   }
   .text-primary {
     color:#fdc76b;
@@ -54,7 +54,7 @@
   .text-secondary {
     font-family: $font-stack;
     font-size: 28px;
-    font-weight: 200;
+    font-weight: 400;
     @media (max-width: 640px) {
       font-size: 18px;
     }
@@ -63,13 +63,13 @@
 .intro-text {
   font-size: 18px;
   font-family: $font-stack;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 // middle aside
 .koomsa-gift {
   h2 {
-    font-weight: 200;
+    font-weight: 400;
   }
   p {
     margin: 10px;
@@ -192,15 +192,15 @@
 .blog-1 {
   .blog-col {
     .h3, h3 {
-      font-size: 22px;
-      font-weight: 200;
+      font-size: 20px;
+          font-weight: 400;
     }
     .blog-preview-content p {
       font-size: 16px;
       margin: 0;
       padding-bottom: 0px;
       &.description {
-        height: 175px;
+        height: 235px;
       }
     }
   }
@@ -208,7 +208,23 @@
     font-size: 14px;
     padding-bottom: 5px;
   }
+.btn {
+  &.btn-default {
+    color: #FFF;
+    background-color: #ad7f2a;
+    border-color: #c8cdd7;
+    color: #fff;
+    a {
+      color: #fff;
+      display: block;
+      border-color: #c8cdd7;
 
+    }
+    &:hover {
+      background-color: lighten(#ad7f2a, 10%);
+    }
+  }
+}
 }
 .koomsa-gift {
   .koomsa-gift-vids {
