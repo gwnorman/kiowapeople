@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Paprika");
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+#blog .continue.pull-right {
+  padding: 20px; }
+
+#blog ul.meta {
+  font-size: 12px; }
+
+.portfolio-modal .modal-content {
+  background-color: #c2b49a;
+  color: #434343; }
+
+@media (min-width: 767px) {
+  section {
+    padding: 50px 0; } }
+
+.banner .intro-welcome {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100; }
+
+.banner .text-primary {
+  color: #fdc76b;
+  font-family: "Kaushan Script", cursive;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 100px; }
+  @media (min-width: 641px) and (max-width: 991px) {
+    .banner .text-primary {
+      font-size: 80px;
+      -webkit-transition: font-size 1s ease;
+      -moz-transition: font-size 1s ease;
+      -ms-transition: font-size 1s ease;
+      -o-transition: font-size 1s ease;
+      transition: font-size 1s ease; } }
+  @media (max-width: 640px) {
+    .banner .text-primary {
+      font-size: 50px;
+      -webkit-transition: font-size 1s ease;
+      -moz-transition: font-size 1s ease;
+      -ms-transition: font-size 1s ease;
+      -o-transition: font-size 1s ease;
+      transition: font-size 1s ease; } }
+
+.banner .text-secondary {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 200; }
+  @media (max-width: 640px) {
+    .banner .text-secondary {
+      font-size: 18px; } }
+
+.intro-text {
+  font-size: 18px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200; }
+
+.koomsa-gift h2 {
+  font-weight: 200; }
+
+.koomsa-gift p {
+  margin: 10px; }
+
+.lower-aside h1 {
+  font-size: 80px;
+  color: #FFF;
+  font-family: "Kaushan Script", cursive;
+  text-transform: capitalize;
+  font-weight: 400; }
+  @media (min-width: 641px) and (max-width: 991px) {
+    .lower-aside h1 {
+      font-size: 60px;
+      -webkit-transition: font-size 1s ease;
+      -moz-transition: font-size 1s ease;
+      -ms-transition: font-size 1s ease;
+      -o-transition: font-size 1s ease;
+      transition: font-size 1s ease; } }
+  @media (max-width: 640px) {
+    .lower-aside h1 {
+      font-size: 50px;
+      -webkit-transition: font-size 1s ease;
+      -moz-transition: font-size 1s ease;
+      -ms-transition: font-size 1s ease;
+      -o-transition: font-size 1s ease;
+      transition: font-size 1s ease; } }
+
+.lower-aside span.sub-title {
+  font-size: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100; }
+  @media (min-width: 641px) and (max-width: 991px) {
+    .lower-aside span.sub-title {
+      font-size: 25px;
+      -webkit-transition: font-size 1s ease;
+      -moz-transition: font-size 1s ease;
+      -ms-transition: font-size 1s ease;
+      -o-transition: font-size 1s ease;
+      transition: font-size 1s ease; } }
+  @media (max-width: 640px) {
+    .lower-aside span.sub-title {
+      font-size: 18px;
+      -webkit-transition: font-size 1s ease;
+      -moz-transition: font-size 1s ease;
+      -ms-transition: font-size 1s ease;
+      -o-transition: font-size 1s ease;
+      transition: font-size 1s ease; } }
+
+.lower-aside .gap {
+  height: 200px; }
+
+.lower-aside .quote {
+  padding-top: 50px;
+  font-size: 24px; }
+  .lower-aside .quote span {
+    display: block;
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+@media (min-width: 767px) {
+  .about-img-1 {
+    background-image: url(../img/demo-portraits/portrait-1.jpg); }
+  .about-img-2 {
+    background-image: url(../img/demo-portraits/portrait-2.jpg); }
+  .about-img-3 {
+    background-image: url(../img/demo-portraits/portrait-3.jpg); }
+  .about-img-4 {
+    background-image: url(../img/demo-portraits/portrait-4.jpg); }
+  .about-img-5 {
+    background-image: url(../img/demo-portraits/portrait-5.jpg); }
+  .about-img-6 {
+    background-image: url(../img/demo-portraits/portrait-6.jpg); }
+  .about-img-7 {
+    background-image: url(../img/demo-portraits/portrait-7.jpg); }
+  .about-img-8 {
+    background-image: url(../img/demo-portraits/portrait-8.jpg); }
+  .about-img-9 {
+    background-image: url(../img/demo-portraits/portrait-9.jpg); } }
+
+.footer-1 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100; }
+  .footer-1 address {
+    line-height: 30px; }
+  @media (max-width: 480px) {
+    .footer-1 .footer-logo img {
+      max-width: 80%; } }
+
+#blog .continue.pull-right {
+  padding: 5px; }
+
+.blog-1 .blog-col .h3, .blog-1 .blog-col h3 {
+  font-size: 22px;
+  font-weight: 200; }
+
+.blog-1 .blog-col .blog-preview-content p {
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 0px; }
+  .blog-1 .blog-col .blog-preview-content p.description {
+    height: 175px; }
+
+.blog-1 .blog-col .blog-preview-content .continue {
+  font-size: 14px;
+  padding-bottom: 5px; }
+
+.koomsa-gift .koomsa-gift-vids {
+  padding-top: 65px; }
+  @media (max-width: 769px) {
+    .koomsa-gift .koomsa-gift-vids {
+      padding-top: 0; } }
+
+.koomsa-gift a.gift {
+  display: block; }
+  .koomsa-gift a.gift img:hover {
+    cursor: pointer; }
+
+.call-text-block h2 {
+  font-size: 30px; }
+
+.call-text-block p {
+  font-size: 17px; }
