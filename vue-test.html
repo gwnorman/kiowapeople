@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Kiowa People</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="assets/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <!-- Retina Images Plugin -->
+    <script src="assets/js/plugins/retina/retina.min.js"></script>
+
+    <!-- Plugin CSS -->
+    <link href="assets/css/plugins/hover/hover.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl.carousel/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl.carousel/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl.carousel/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.css" rel="stylesheet">
+    <link href="assets/css/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Spectrum CSS -->
+    <link href="assets/css/spectrum-coffee.css" rel="stylesheet">
+
+    <!-- Special CSS -->
+    <link href="assets/css/kiowapeople.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="assets/js/vue.js"></script>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<div id="wrapper">
+
+    <nav class="navbar navbar-dark navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="https://www.kiowatribe.org" target="_blank">
+                        <span class="logo">
+                            <img src="assets/img/logo.png" alt="">
+                        </span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#page-top">Home</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#blog">Stories</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#call">Legacy Gifts</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">Thanks</a>
+                    </li>
+                    <!--<li class="page-scroll">-->
+                    <!--<a href="#contact">Contact</a>-->
+                    <!--</li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <header class="intro-img-half intro-dark-bg" style="background-image: url(assets/img/demo-bgs/kiowa_people_header_bg.jpg)" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="intro-body" data-scrollreveal="move 0 over 1s">
+            <div class="container banner">
+                <div class="intro-welcome">For the</div>
+                <br>
+                <h1 class="brand-heading">
+                    <span class="text-primary">The Kiowa People</span>
+                </h1>
+                <div class="">
+                    <div class="item active">
+                        <!--<span class="text-secondary">Teaching The Kiowa Language, Traditionally</span>-->
+                    </div>
+                </div>
+                <div class="page-scroll" data-scrollreveal="enter bottom after .6s">
+                    <a href="#blog" class="btn btn-scroll-light sink">
+                        <i class="fa fa-angle-double-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="blog" class="blog-1 bg-lighter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Teaching the Kiowa Language, Traditionally</h2>
+                    <hr class="primary mb">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 intro-text text-center">
+                    <p>
+                        We brought cameras and audio gear to capture and preserve Kiowa Elders speaking Kiowa.
+                    </p>
+                    <p>
+                        While there are books and reference materials helping to teach the Kiowa language, nothing compares to actually hearing a Kiowa speaker speaking Kiowa.  Listening to Native speakers speaking Kiowa is the best way to hear our unique sounds, understand usage and get started learning our Kiowa language.
+                    </p>
+                    <p>
+                        Bernadine Rhoades, Martha Koomsa Perez and Lance White provide insights and lessons on learning to speak Kiowa.
+                    </p>
+                    <p>
+                    <h3>Click on a video below:</h3>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row blog-row" id="app">
+
+
+                <!-- Video Line Template -->
+                <div class="col-md-4 blog-col" data-scrollreveal="enter left over 1.5s" v-for="trees in forest">
+                    <a href="javascript:void(0);" class="blog-preview-img portfolio-link">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-play-circle-o fa-3x"></i>
+                            </div>
+                        </div>
+                        <img v-bind:src='trees.vidimg' class="img-responsive" alt="">
+                    </a>
+                    <div class="blog-preview-content">
+                        <h3>
+                            <a href="javascript:void(0);" class="portfolio-link">{{ trees.vidTitle }}</a>
+                            <p>&nbsp;</p>
+                        </h3>
+                        <p class="description">{{ trees.vidDescription }}</p>
+                        <div class="continue pull-right btn btn-default btn btn-default">
+                            {{ trees.vidBttnText }}
+                        </div>
+                        <ul class="meta list-inline">
+                            <li>&nbsp;{{ trees.vidId  }}</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- //vid line Template -->
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section id="about" class="about-3 bg-lighter text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-6">
+                    <h2>Heartfelt Thanks</h2>
+                    <hr class="primary">
+                    <p>To tell the story of learning the Kiowa language, we needed a variety of viewpoints, from the
+                        wisdom of elders to the youthful yearning to learn of the next generation.</p>
+                    <p>None of these videos would have been possible without the support of the Kiowa tribe and the
+                        brave individuals that faced our cameras and shared with us and the future.</p>
+
+                    <p> To all,
+                        <br>
+                        Ah-Ho</p>
+                </div>
+                <div class="col-lg-3 col-lg-offset-1 col-md-6">
+                    <h2>Kiowa Storytellers</h2>
+                    <hr class="primary">
+                    <div id="about-3-carousel" class="text-center">
+                        <div class="item about-img-1">
+                            <div class="info">
+                                <!-- Mobile Fallback Image -->
+                                <img class="img-responsive img-circle visible-xs" src="assets/img/demo-portraits/portrait-1.jpg" alt="">
+                                <!-- Name / Position / Social Links -->
+                                <h3>Martha Koomsa Perez </h3>
+                                <p>Kiowa Elder</p>
+                            </div>
+                        </div>
+                        <div class="item about-img-2">
+                            <div class="info">
+                                <!-- Mobile Fallback Image -->
+                                <img class="img-responsive img-circle visible-xs" src="assets/img/demo-portraits/portrait-2.jpg" alt="">
+                                <!-- Name / Position / Social Links -->
+                                <h3>Bernadine H. Rhoades</h3>
+                                <p>Kiowa Elder</p>
+                            </div>
+                        </div>
+                        <div class="item about-img-3">
+                            <div class="info">
+                                <!-- Mobile Fallback Image -->
+                                <img class="img-responsive img-circle visible-xs" src="assets/img/demo-portraits/portrait-3.jpg" alt="">
+                                <!-- Name / Position / Social Links -->
+                                <h3>Lance White</h3>
+                                <p>Kiowa Elder</p>
+                            </div>
+                        </div>
+                        <div class="item about-img-4">
+                            <div class="info">
+                                <!-- Mobile Fallback Image -->
+                                <img class="img-responsive img-circle visible-xs" src="assets/img/demo-portraits/portrait-4.jpg" alt="">
+                                <!-- Name / Position / Social Links -->
+                                <h3>Ernest Redbird</h3>
+                                <p>Kiowa Elder</p>
+                            </div>
+                        </div>
+                        <div class="item about-img-5">
+                            <div class="info">
+                                <!-- Mobile Fallback Image -->
+                                <img class="img-responsive img-circle visible-xs" src="assets/img/demo-portraits/portrait-5.jpg" alt="">
+                                <!-- Name / Position / Social Links -->
+                                <h3>Darin Zotigh</h3>
+                                <p>Kiowa Elder</p>
+                            </div>
+                        </div>
+                        <div class="item about-img-6">
+                            <div class="info">
+                                <!-- Mobile Fallback Image -->
+                                <img class="img-responsive img-circle visible-xs" src="assets/img/demo-portraits/portrait-6.jpg" alt="">
+                                <!-- Name / Position / Social Links -->
+                                <h3>Matthew Komalty</h3>
+                                <p>Kiowa Elder</p>
+                            </div>
+                        </div>
+                        <div class="item about-img-7">
+                            <div class="info">
+                                <!-- Mobile Fallback Image -->
+                                <img class="img-responsive img-circle visible-xs" src="assets/img/demo-portraits/portrait-7.jpg" alt="">
+                                <!-- Name / Position / Social Links -->
+                                <h3>Dianna Hadley</h3>
+                                <p>Kiowa Tribe Member</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer-1">
+        <div class="upper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="http://www.digiglyphs.com" target="_blank" class="footer-logo"><h2 class="script"><img src="assets/img/logo-footer.png" > </h2></a>
+
+                    </div>
+                    <div class="col-md-1 hidden-xs">
+                        &nbsp;
+                    </div>
+                    <div class="col-md-3" style="padding-top: 35px">
+                        <ul class="list-unstyled footer-links">
+                            <li>
+                                San Jose, Ca.
+                            </li>
+                            <li>
+                                <a href="mailto:contact@digiglyphs.com">contact@digiglyphs.com</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-3">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="small">Copyright &copy; 2018 - DigiGlyphs. All Rights Reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+
+<!-- Standard Portfolio Modal - Video and Text -->
+<div id="portfolio-modal-2" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row first">
+                <div class="col-lg-12">
+                    <h2 class="page-header" id="video-modal-title"></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <iframe id="video1" src="https://player.vimeo.com/video/254002009?title=0&amp;byline=0&amp;portrait=0" allowfullscreen width="400" height="225" style="border: none;"></iframe>
+                </div>
+                <div class="col-md-4">
+                    <h3 id="video-modal-subtitle"></h3>
+                    <p>
+                            <span id="video-modal-descrip">
+
+                            </span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Details:</h3>
+                    <ul class="list-unstyled project-details">
+                        <li>
+                            <strong>Time:</strong> <span id="video-modal-time"></span></li>
+                        <!--<li>-->
+                        <!--<strong>Services:</strong>Web Design, Photography</li>-->
+                        <li>
+                            <strong>Date:</strong> <span id="video-modal-date"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Core JavaScript Files -->
+<script src="assets/js/jquery-1.10.2.js"></script>
+<script src="assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="assets/js/modernizr.custom.js"></script>
+
+<!-- Plugin JavaScript Files -->
+<script src="assets/js/plugins/jquery.easing/jquery.easing.1.3.js"></script>
+<script src="assets/js/plugins/jquery.fitvids/jquery.fitvids.js"></script>
+<script src="assets/js/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.min.js"></script>
+<script src="assets/js/plugins/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/plugins/jquery.tubular/jquery.tubular.1.0.js"></script>
+<script src="assets/js/plugins/owl.carousel/owl.carousel.min.js"></script>
+<script src="assets/js/plugins/scrollReveal/scrollReveal.js"></script>
+<script src="assets/js/plugins/stellar/stellar.js"></script>
+<script src="assets/js/plugins/SmoothScroll/SmoothScroll.js"></script>
+<script src="assets/js/plugins/jqBootstrapValidation/jqBootstrapValidation.js"></script>
+<script src="assets/js/contact_me.js"></script>
+<script src="assets/js/plugins/isotope/isotope.pkgd.min.js"></script>
+
+<!-- Spectrum JavaScript Files -->
+<script src="assets/js/spectrum.nav.js"></script>
+<script src="assets/js/spectrum.js"></script>
+
+<script>
+  var vm = new Vue ({
+    el:'#app',
+    data:{
+      forest:[
+        {
+          vidimg:'assets/img/demo-blog/bernadine1.jpg',
+          vidTitle:"It Started with a Call",
+          vidId:"265410623",
+          vidSubtitle:"Koomsa Family Legacy",
+          vidDescription:"A short documentary on learning to speak Kiowa, why we started losing the language and the desires to save it.",
+          vidTime:"1 hour 10 minutes 48 seconds",
+          vidBttnText:'Watch now',
+        },
+        {
+          vidimg:'assets/img/demo-blog/koomsa-legacy.jpg',
+          vidTitle:"Legacy of Life",
+          vidId:"2654123",
+          vidSubtitle:"Koomsa Family Legacy",
+          vidDescription:"Kiowa Elder Bernadine Rhoades has spoken Kiowa since birth. It’s the language she grew up speaking daily. Bernadine introduces viewers to the unique sounds of the Kiowa language and some basic conversational words..",
+          vidTime:"5 hour 10 minutes 48 seconds",
+          vidBttnText:'Watch now',
+        },
+        {
+          vidimg:'assets/img/demo-blog/lance.jpg',
+          vidTitle:"Song of the South",
+          vidId:"2300000",
+          vidSubtitle:"The Song of the South",
+          vidDescription:"Lance White was raised by his grandparents. Their only language was Kiowa. Lance shares his knowledge of common Kiowa words and conversational phrases to use in daily conversations..",
+          vidTime:"10 minutes 48 seconds",
+          vidBttnText:'Watch now',
+        },
+
+      ] // array of values
+    },
+  })
+</script>
+
+
+
+<script>
+  $( document ).ready(function() {
+
+    $("#about-3-carousel").owlCarousel({
+
+      items: 1,
+      itemsDesktop: [1199, 1],
+      itemsDesktopSmall: [979, 3],
+      autoplay:true,
+      autoplayTimeout:2000,
+      autoplayHoverPause:true
+
+    });
+
+    $( ".portfolio-link" ).each(function( index ) {
+      var $vtitle = $(this).data('vid-title');
+      var $vurl = $(this).data('vid-id');
+      var $vBase = 'https://player.vimeo.com/video/';
+      var $vsubTitle = $(this).data('vid-subtitle');
+      var $vdescrip = $(this).data('vid-description');
+      var $vtime = $(this).data('vid-time');
+      var $vdate = $(this).data('vid-date');
+      $( this ).on( "click", function() {
+        $('#video-modal-title').text($vtitle);
+        $('#video1').attr('src' , $vBase + $vurl);
+        $('#video-modal-subtitle').text($vsubTitle);
+        $('#video-modal-descrip').text($vdescrip);
+        $('#video-modal-time').text($vtime);
+        $('#video-modal-date').text($vdate);
+      });
+    });
+
+
+
+    function stopVideo() {
+      var $frame = $('iframe#video1');
+
+      // saves the current iframe source
+      var vidsrc = $frame.attr('src');
+
+      // sets the source to nothing, stopping the video
+      $frame.attr('src', '');
+
+      // sets it back to the correct link so that it reloads immediately on the next window open
+      $frame.attr('src', vidsrc);
+    }
+
+    $('#portfolio-modal-2').on('hidden.bs.modal', function(e) {
+      stopVideo();
+    })
+  });
+</script>
+
+</body>
+
+</html>
