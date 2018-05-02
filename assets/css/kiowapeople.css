@@ -149,16 +149,17 @@
 #blog .continue.pull-right {
   padding: 5px; }
 
-.blog-1 .blog-col .h3, .blog-1 .blog-col h3 {
-  font-size: 20px;
-  font-weight: 400; }
-
-.blog-1 .blog-col .blog-preview-content p {
-  font-size: 16px;
-  margin: 0;
-  padding-bottom: 0px; }
-  .blog-1 .blog-col .blog-preview-content p.description {
-    height: 235px; }
+.blog-1 .blog-col {
+  color: #0b0b0b; }
+  .blog-1 .blog-col .h3, .blog-1 .blog-col h3 {
+    font-size: 20px;
+    font-weight: 400; }
+  .blog-1 .blog-col .blog-preview-content p {
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 0px; }
+    .blog-1 .blog-col .blog-preview-content p.description {
+      height: 235px; }
 
 .blog-1 .blog-col .blog-preview-content .continue {
   font-size: 14px;
